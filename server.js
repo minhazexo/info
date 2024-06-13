@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public')); // to serve static files like CSS
 
 // Connect to MongoDB
-const uri = 'mongodb+srv://<minhazexo>:<minhaz0337>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://<minhazexo>:<minhaz0337>@cluster0.mongodb.net/<project 0>?retryWrites=true&w=majority';
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define the User schema
